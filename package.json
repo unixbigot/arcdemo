@@ -1,0 +1,26 @@
+{
+   "name": "arcdemo",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "create": "AWS_PROFILE=unixbigot AWS_REGION=ap-southeast-2 arc-create",
+      "deploy": "AWS_PROFILE=unixbigot AWS_REGION=ap-southeast-2 arc-deploy",
+      "dns": "AWS_PROFILE=unixbigot AWS_REGION=ap-southeast-2 arc-dns",
+      "start": "AWS_PROFILE=unixbigot AWS_REGION=ap-southeast-2 NODE_ENV=testing arc-sandbox",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "install": "arc-modules-install",
+      "link": "arc-modules-link",
+      "rm": "arc-modules-uninstall",
+      "update": "arc-modules-update"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@architect/data": "^1.0.3"
+   },
+   "devDependencies": {
+      "@architect/workflows": "^2.2.2"
+   }
+}

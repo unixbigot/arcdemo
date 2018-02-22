@@ -1,0 +1,7 @@
+{
+  "name": "arcdemo-post-types-000typeID",
+  "dependencies": {
+    "@architect/data": "^1.0.3",
+    "@architect/functions": "^1.6.3"
+  }
+}

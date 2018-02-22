@@ -1,0 +1,6 @@
+{
+  "name": "arcdemo-get-hello",
+  "dependencies": {
+    "@architect/functions": "^1.6.3"
+  }
+}

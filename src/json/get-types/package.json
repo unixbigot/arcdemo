@@ -1,0 +1,7 @@
+{
+  "name": "arcdemo-get-types",
+  "dependencies": {
+    "@architect/data": "^1.0.3",
+    "@architect/functions": "^1.6.3"
+  }
+}
