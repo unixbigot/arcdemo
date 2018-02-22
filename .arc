@@ -20,14 +20,3 @@ post /types/:typeID/delete
 types
   typeID *String
   
-
-
-
-
-
-
-
-
-
-
-

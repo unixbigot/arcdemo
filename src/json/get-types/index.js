@@ -15,7 +15,9 @@ function route(req, res) {
     app.types.scan({}, function _scan(err, result) {
 	console.log("types lambda result", err, result)
 	if (err) throw err;
-	res({json:result})
+ 	res({json:result.Items.map(item=>{return item.typeID})})
+	//res({json:result.map(item=>{item.typeID})})
+
     })
     
 }

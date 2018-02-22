@@ -13,7 +13,7 @@ do
     do
 	item=`basename ${file} .json`
 	echo -n " ${item}"
-	curl -s -O /dev/null -H "Content-Type: application/json" -X POST -d @${file} $URL/${table}
+	curl -s -o /dev/null -H "Content-Type: application/json" -X POST -d @${file} $URL/${table}
     done
     echo "."
 done

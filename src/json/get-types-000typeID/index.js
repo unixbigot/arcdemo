@@ -14,7 +14,7 @@ function route(req, res) {
     app.types.get({typeID: req.params.typeID}, function _get(err, result) {
 	console.log("get-types lambda result", err, result)
 	if (err) throw err;
-	res({json:result})
+	res({json:result.values})
     })
 }
 
